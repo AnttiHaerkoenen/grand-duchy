@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "History of the Grand Duchy of Finland"
 author: "Antti Härkönen"
 categories: documentation

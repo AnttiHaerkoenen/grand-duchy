@@ -1,4 +1,8 @@
 # main links
 main:
+  - title: "Project"
+    url: /project
   - title: "People"
-    url: /people/
+    url: /people
+  - title: "News"
+    url: /news

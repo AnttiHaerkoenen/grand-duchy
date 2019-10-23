@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: splash
 title: People
+permalink: /people
 ---
 
 <style>
@@ -10,7 +11,7 @@ title: People
     align-items: flex-start;
   }
   .card {
-    flex: 0 0 200px;
+    flex: 0 0 300px;
     margin: 10px;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
