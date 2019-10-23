@@ -1,9 +1,8 @@
 ---
 layout: single
 title: "History of the Grand Duchy of Finland"
-author: "Antti Härkönen"
-categories: documentation
-tags: []
+categories: news
+tags: [news]
 image: marjat.jpg
 ---
 
