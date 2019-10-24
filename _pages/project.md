@@ -1,4 +1,5 @@
 ---
-title: "About the project"
+title: "About the Project"
 layout: single
+permalink: /project
 ---
