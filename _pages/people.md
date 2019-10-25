@@ -63,22 +63,22 @@ soder:
     btn_class: "btn--info"
 ---
 
-## University of Eastern Finland
+# University of Eastern Finland
 
 {% include feature_row id="uef" %}
 
-## University of Turku
+# University of Turku
 
 {% include feature_row id="tku" type="center"%}
 
-## European University of St. Petersburg
+# European University of St. Petersburg
 
 {% include feature_row id="peter" type="center"%}
 
-## University of Helsinki
+# University of Helsinki
 
 {% include feature_row id="hki" type="center"%}
 
-## University of Södertörn
+# University of Södertörn
 
 {% include feature_row id="soder" type="center"%}
