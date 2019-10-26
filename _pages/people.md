@@ -5,7 +5,7 @@ permalink: /people
 uef:
   - image_path: "/assets/img/people/liikanen.jpg"
     title: Ilkka Liikanen
-    excerpt: "Ylipiällikkö"
+    excerpt: ""
     url: ""  
     btn_label: "Publications"
     btn_class: "btn--info"

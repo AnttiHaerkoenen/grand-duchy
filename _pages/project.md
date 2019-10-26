@@ -1,5 +1,5 @@
 ---
 title: "About the Project"
-layout: single
+layout: splash
 permalink: /project
 ---
