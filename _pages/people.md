@@ -2,6 +2,9 @@
 layout: splash
 title: People
 permalink: /people
+header:
+  overlay_color: "#044"
+  overlay_filter: "0.5"
 uef:
   - image_path: "/assets/img/people/liikanen.jpg"
     title: Ilkka Liikanen

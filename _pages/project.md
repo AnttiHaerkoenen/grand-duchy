@@ -2,6 +2,9 @@
 title: "About the Project"
 layout: splash
 permalink: /project
+header:
+  overlay_color: "#044"
+  overlay_filter: "0.5"
 ---
 
 # Grand Duchy of Finland as Political Space - A Conceptual History 
