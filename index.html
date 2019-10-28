@@ -6,33 +6,57 @@ header:
   overlay_color: "#044"
   overlay_filter: "0.5"
   overlay_image:
-  actions:
-    - label: "Information about the project"
-      url: "/project"
 excerpt: "Grand Duchy of Finland as Political Space is an Academy of Finland funded project seeking to explore the conflicting meanings associated with the concept of Grand Duchy."
 feature_row:
+  - image_path: assets/img/kirja.jpg
+    alt:
+    title: "Project"
+    url: "/project"
+    excerpt: "Information about the project"
+    btn_label: "Learn More"
+    btn_class: "btn--info"
   - image_path: assets/img/people/ryhmakuva_nelio.jpg
     alt:
     title: People
-    excerpt:
     url: "/people"
-  - image_path: assets/img/lehdet.jpg
-    alt:
-    title: "News & Events"
-    excerpt:
-    url: "/news"
+    excerpt: "Researchers working on the project"
+    btn_label: "Learn More"
+    btn_class: "btn--info"
   - image_path: assets/img/kirja.jpg
     alt:
-    title: "Elsewhere"
-    excerpt:
+    title: "Blogs"
     url: "/blogs"
+    excerpt: "Blog posts and other writings by project members elsewhere"
+    btn_label: "Learn More"
+    btn_class: "btn--info"
+news:
+  - image_path: assets/img/kirja.jpg
+    title: Jytkytys
+    excerpt: jytky
+events:
+  - image_path: assets/img/kirja.jpg
+    title: Jytkytys 2018-03-03
+    excerpt: jytky
 ---
 
-{% include feature_row %}
+{% include feature_row id="feature_row" %}
 
-<a> class="twitter-timeline"
-   data-width="500" data-height="500" data-theme="light"
-   href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">
-  National Park Tweets - Curated tweets by TwitterDev
-</a>
-<cscript async src="https://platform.twitter.com/widgets.js" charset="utf-8"></cscript>
+<div>
+  <h1>News</h1>
+
+  {% include feature_row id="news" %}
+
+  <a href="/news" class="btn btn--info btn--large">More news</a>
+</div>
+<br>
+<div>
+  <h1>Events</h1>
+
+  {% include feature_row id="events" %}
+
+  <a href="/events" class="btn btn--info btn--large">More events</a>
+</div>
+<br>
+<div>
+  <a class="twitter-timeline" data-width="500" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>

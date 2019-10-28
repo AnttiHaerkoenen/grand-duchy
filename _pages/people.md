@@ -1,7 +1,7 @@
 ---
-layout: splash
 title: People
 permalink: /people
+layout: splash
 header:
   overlay_color: "#044"
   overlay_filter: "0.5"
@@ -67,21 +67,26 @@ soder:
 ---
 
 # University of Eastern Finland
+{: .text-center}
 
 {% include feature_row id="uef" %}
 
 # University of Turku
+{: .text-center}
 
-{% include feature_row id="tku" type="center"%}
+{% include feature_row id="tku" %}
 
 # European University of St. Petersburg
+{: .text-center}
 
-{% include feature_row id="peter" type="center"%}
+{% include feature_row id="peter" %}
 
 # University of Helsinki
+{: .text-center}
 
-{% include feature_row id="hki" type="center"%}
+{% include feature_row id="hki" %}
 
 # University of Södertörn
+{: .text-center}
 
-{% include feature_row id="soder" type="center"%}
+{% include feature_row id="soder" %}
