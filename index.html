@@ -2,11 +2,15 @@
 title: "Welcome!"
 layout: splash
 permalink: /
+entries_layout: grid
+sort_by: title
+sort_order: reverse
 header:
   overlay_color: "#044"
   overlay_filter: "0.5"
   overlay_image:
-excerpt: "Grand Duchy of Finland as Political Space is an Academy of Finland funded project seeking to explore the conflicting meanings associated with the concept of Grand Duchy."
+excerpt: "Grand Duchy of Finland as Political Space is an Academy of Finland funded project
+seeking to explore the conflicting meanings associated with the concept of Grand Duchy."
 feature_row:
   - image_path: assets/img/kirja.jpg
     alt:
@@ -39,31 +43,47 @@ events:
     excerpt: jytky
 ---
 
+<style>
+  .clear{
+    clear:both;
+  }
+</style>
+
 {% include feature_row id="feature_row" %}
 
+<div class="clear"></div>
 <br>
-<div style="horiz-align: center">
+<div>
   <h1 style="text-align: center">News</h1>
-
-  {% for n in site.news %}
-  <h2>
-    <a href="{{ n.url }}">
-      {{ n.title }} - {{ staff_member.position }}
-    </a>
-  </h2>
-  <p>{{ staff_member.content | markdownify }}</p>
-  {% endfor %}
-
+</div>
+<div class="clear"></div>
+<div>
+  <div class="entries-{{ page.entries_layout }}">
+    {% include documents-collection-front-page.html collection="news"
+    sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+  </div>
+</div>
+<div class="clear"></div>
+<div class="align-center">
   <a href="/news" class="btn btn--info btn--block bt">More news</a>
 </div>
+<div class="clear"></div>
 <br>
 <div>
   <h1 style="text-align: center">Events</h1>
-
-  {% include feature_row id="events" %}
-
+</div>
+<div class="clear"></div>
+<div>
+  <div class="entries-{{ page.entries_layout }}">
+    {% include documents-collection-front-page.html collection="news"
+    sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+  </div>
+</div>
+<div class="clear"></div>
+<div>
   <a href="/events" class="btn btn--info btn--block">More events</a>
 </div>
+<div class="clear"></div>
 <br>
 <div>
   <a class="twitter-timeline" data-width="400" data-height="600" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

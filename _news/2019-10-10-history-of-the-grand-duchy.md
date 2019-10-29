@@ -1,8 +1,10 @@
 ---
 layout: single
 title: "History of the Grand Duchy of Finland"
-header
-image_path: "assets/img/marjat.jpg"
+header:
+  image: assets/img/marjat.jpg
+  teaser: assets/img/marjat.jpg
+excerpt: "Ingressi jutulle"
 ---
 
 # Heading 1
