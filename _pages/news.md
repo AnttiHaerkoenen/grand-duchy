@@ -1,5 +1,8 @@
 ---
 title: "News"
-layout: archive
-permalink: /news
+layout: collection
+permalink: /news/
+collection: news
+entries_layout: grid
+classes: wide
 ---

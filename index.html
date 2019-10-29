@@ -41,22 +41,30 @@ events:
 
 {% include feature_row id="feature_row" %}
 
-<div>
-  <h1>News</h1>
+<br>
+<div style="horiz-align: center">
+  <h1 style="text-align: center">News</h1>
 
-  {% include feature_row id="news" %}
+  {% for n in site.news %}
+  <h2>
+    <a href="{{ n.url }}">
+      {{ n.title }} - {{ staff_member.position }}
+    </a>
+  </h2>
+  <p>{{ staff_member.content | markdownify }}</p>
+  {% endfor %}
 
-  <a href="/news" class="btn btn--info btn--large">More news</a>
+  <a href="/news" class="btn btn--info btn--block bt">More news</a>
 </div>
 <br>
 <div>
-  <h1>Events</h1>
+  <h1 style="text-align: center">Events</h1>
 
   {% include feature_row id="events" %}
 
-  <a href="/events" class="btn btn--info btn--large">More events</a>
+  <a href="/events" class="btn btn--info btn--block">More events</a>
 </div>
 <br>
 <div>
-  <a class="twitter-timeline" data-width="500" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a class="twitter-timeline" data-width="400" data-height="600" href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
