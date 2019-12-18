@@ -8,8 +8,7 @@ header:
 uef:
   - image_path: "/assets/img/people/liikanen.jpg"
     title: Ilkka Liikanen
-    excerpt: ""
-    url: ""  
+    excerpt: "Ilkka Liikanen is Professor of Border and Russian studies at the Karelian Institute, University of Eastern Finland and Docent in Political History at the University of Helsinki. In 2017 he worked as visiting scholar at Carleton University, Ottawa. He has published widely on nationalism and nation-building, social movements and political language as well as post-Soviet politics and borders. He is the editor of Routledge Borderlands Studies."
     btn_label: "Publications"
     btn_class: "btn--info"
   - image_path: "/assets/img/people/katajala.jpg"
@@ -33,14 +32,13 @@ uef:
   - image_path: "/assets/img/people/harkonen.jpg"
     title: Antti Härkönen
     excerpt: "Antti Härkönen is a junior researcher at the Department of Geographical and Historical Studies at the University of Eastern Finland specialising in digital humanities and pre- 20th century history. He is writing a dissertation on the use of geospatial analysis in historical research using the spatial segregation of religious groups of Vyborg as a case study."
-    url: ""  
     btn_label: "Publications"
     btn_class: "btn--info"
 tku:
   - image_path: "/assets/img/people/jalava.jpg"
     title: Marja Jalava
-    excerpt: ""
-    url: ""  
+    excerpt: "Marja Jalava acts as Professor in Cultural History at the School of History, Culture and Arts Studies at the University of Turku. She gained her PhD in 2005 at the University of Helsinki in Finnish and Scandinavian History. Her research interests lie in intellectual history, conceptual history, history of historiography, history of emotions, and the modern history of Finland and the Nordic countries."
+    url: "https://research.utu.fi/converis/portal/Person/17615144"  
     btn_label: "Publications"
     btn_class: "btn--info"
 hki:
