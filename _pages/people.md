@@ -14,19 +14,17 @@ uef:
   - image_path: "/assets/img/people/katajala.jpg"
     title: Kimmo Katajala
     excerpt: ""
-    url: ""  
     btn_label: "Publications"
     btn_class: "btn--info"
   - image_path: "/assets/img/people/kuusisto.jpg"
     title: Alina Kuusisto
-    excerpt: ""
-    url: ""  
+    excerpt: "Alina Kuusisto is a postdoctoral researcher at the Karelian Institute, University of Eastern Finland. She gained her PhD in 2017 in Finnish History. She has studied higher education policy, Finnish and European policies of cross-border cooperation and local and regional history of North Karelia and Eastern Finland in 19th and 20th centuries. "
     btn_label: "Publications"
     btn_class: "btn--info"
   - image_path: "/assets/img/people/merovuo.jpg"
     title: Jenni Merovuo
-    excerpt: ""
-    url: ""  
+    excerpt: "Jenni Merovuo is an early stage researcher at the Department of Geographical and Historical studies, University of Eastern Finland. In 2018, she was a visiting doctoral scholar at the University of Stockholm. She studies border history, and peripheral and from-below agency from the 18th century to the 20th century. Her PhD research focuses on border-building and belonging to a state on the Russo-Swedish borderland in the late-18th century."
+    url: "https://uefconnect.uef.fi/en/person/jenni.merovuo/"
     btn_label: "Publications"
     btn_class: "btn--info"
   - image_path: "/assets/img/people/harkonen.jpg"
@@ -52,14 +50,12 @@ peter:
   - image_path: "/assets/img/people/potapova.jpg"
     title: Natalia Potapova
     excerpt: ""
-    url: ""  
     btn_label: "Publications"
     btn_class: "btn--info"
 soder:
   - image_path: "/assets/img/people/kurunmaki.jpg"
     title: Jussi Kurunmäki
-    excerpt: ""
-    url: ""  
+    excerpt: "Jussi Kurunmäki is Adjunct Professor (Docent in Political Science 2011 and in Political History 2018), working at Tampere University. Previously, he led a research project at the University of Helsinki. He has for many years worked as a research fellow and lecturer at the Department of Political Science, Stockholm University, and at the Institute of Contemporary History, Södertörn University. His main fields of research include nineteenth- and twentieth-century conceptual history and the political rhetoric of isms. He is one of the editors of the Finnish anthology of conceptual history Käsitteet liikkeessä (Concepts in Motion) (2003), Rhetorics of Nordic Democracy (2010), Democracy in Modern Europe: A Conceptual History (2018), and the special issue on the political rhetoric of isms in Journal of Political Ideologies (2018). Kurunmäki is the chairperson of the international network Concepta – International Research Seminars in Conceptual History and Political Thought."
     btn_label: "Publications"
     btn_class: "btn--info"
 ---
