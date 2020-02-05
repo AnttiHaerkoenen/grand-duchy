@@ -49,7 +49,7 @@ hki:
 peter:
   - image_path: "/assets/img/people/potapova.jpg"
     title: Natalia Potapova
-    excerpt: ""
+    excerpt: "Natalia Potapova received her PhD (Candidate Degree) in Russian history from the Russian Academy of Sciences in 2000, and currently is an associate professor at the European University at St.Petersburg and a research fellow at the Center "Res Publica". Her research interests concerns with the Russian History of XVIII-early XIX century in comparative perspective, the History of political concepts and Russian Republicanism, Cultural History. Natalia was a research fellow at the National Library of Russia and worked on the content analysis of Russian periodical press of the first half of XIX century. She is also interested in criticism of historical knowledge and participated in several international projects devoted to the historiography and contemporary historical thought."
     btn_label: "Publications"
     btn_class: "btn--info"
 soder:
