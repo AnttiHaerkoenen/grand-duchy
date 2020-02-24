@@ -13,7 +13,7 @@ uef:
     btn_class: "btn--info"
   - image_path: "/assets/img/people/katajala.jpg"
     title: Kimmo Katajala
-    excerpt: ""
+    excerpt: "Kimmo Katajala is Professor of History at the Department of Geographical and Historical Studies, University of Eastern Finland and Adjunct Professor (Docent) in History at Tampere University. The main topics in his publications are social disturbances, history of borders, cartography and state building in the early modern period. In his ongoing projects he is studying the influence of society’s lower strata on state building processes, and urban history in cartography and historical memory."
     btn_label: "Publications"
     btn_class: "btn--info"
   - image_path: "/assets/img/people/kuusisto.jpg"
